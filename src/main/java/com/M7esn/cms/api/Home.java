@@ -13,6 +13,6 @@ public class Home {
     public String input() {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         String date = sdf.format(new Date());
-        return "Application WORKS!... DATE: " + date;
+        return "Application WORKS!... DATE: " + date + " - " + "WELCOME!!!";
     }
 }
